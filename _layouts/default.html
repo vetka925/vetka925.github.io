@@ -4,7 +4,7 @@
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% include mathjax_support.html %}
-    {% if post.use_math %}
+    {% if page.use_math %}
       {% include mathjax_support %}
     {% endif %}
 
